@@ -1,0 +1,27 @@
+.container {
+    width: 700px;
+    margin: 0 auto; /* Centre le conteneur */
+}
+
+@media (max-width: 960px) {
+    /* Pour les écrans < 960px, ce CSS sera appliqué */
+    .container {
+        width: 700px; /* Vous pouvez garder cette règle ou ajuster selon vos besoins */
+    }
+}
+
+@media (max-width: 720px) {
+    /* Pour les écrans < 720px, ce CSS sera appliqué */
+    .container {
+        width: 500px; /* Ajuste la largeur du conteneur */
+    }
+}
+
+@media (max-width: 540px) {
+    /* Pour les écrans < 540px, ce CSS sera appliqué */
+    .container {
+        width: 300px; /* Ajuste la largeur du conteneur */
+    }
+}
+
+

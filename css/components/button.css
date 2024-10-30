@@ -1,0 +1,17 @@
+.btn-blue {
+    background-color: red; /* Couleur de fond */
+    padding: 15px 20px; /* Espacement intérieur */
+    border-radius: 4px; /* Coins arrondis */
+    color: white; /* Couleur du texte */
+    font-weight: bold; /* Texte en gras */
+    font-family: "Roboto", sans-serif; /* Police du texte */
+    text-align: center; /* Centre le texte */
+    display: inline-block; /* Permet au bouton d'être en ligne avec d'autres éléments */
+    text-decoration: none; /* Supprime le soulignement si c'est un lien */
+    cursor: pointer; /* Curseur en forme de main au survol */
+    transition: background-color 0.3s; /* Transition douce pour le changement de couleur */
+}
+
+.btn-blue:hover {
+    background-color: darkred; /* Change la couleur au survol */
+}

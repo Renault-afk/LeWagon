@@ -1,0 +1,46 @@
+/* Basic Body Styling */
+body {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+/* Banner Styling */
+.banner {
+  background: 
+      linear-gradient(0deg, rgba(255, 0, 0, 0.7) 0%, rgba(255, 255, 0, 0.7) 60%, rgba(255, 255, 255, 0) 100%), 
+      url("../../images/codage.jpg")
+ no-repeat center center; /* Gradient overlay with image */
+  color: black; /* Couleur du texte */
+  padding: 150px 0; /* Espacement vertical pour le padding */
+  background-size: cover; /* Assure que l'image couvre toute la bannière */
+  text-align: center; /* Alignement centré du texte */
+}
+
+
+/* Container Styling */
+.container {
+  max-width: 800px;      /* Largeur maximale du conteneur */
+  margin: auto;          /* Centre le conteneur horizontalement */
+  padding: 20px;         /* Espacement intérieur du conteneur */
+}
+
+/* Button Styling */
+.btn-blue {
+  background-color: #007bff; /* Couleur de fond du bouton */
+  color: white;               /* Couleur du texte */
+  padding: 12px 24px;        /* Espacement intérieur du bouton */
+  border-radius: 5px;        /* Coins arrondis */
+  text-align: center;         /* Centre le texte à l'intérieur du bouton */
+  display: inline-block;      /* Permet au bouton d'être en ligne avec d'autres éléments */
+  font-weight: bold;          /* Texte en gras */
+  font-family: "Roboto", sans-serif; /* Police du texte */
+  text-decoration: none;      /* Supprime le soulignement des liens si utilisé dans un élément <a> */
+  transition: background-color 0.3s; /* Ajoute une transition pour le changement de couleur */
+}
+
+/* Hover Effect for Button */
+.btn-blue:hover {
+  background-color: #0056b3; /* Couleur de fond au survol */
+}
+

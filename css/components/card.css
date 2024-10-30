@@ -1,0 +1,99 @@
+/* Container for Cards */
+.cards {
+  display: flex;
+  flex-wrap: wrap; /* Allows cards to wrap onto the next line */
+  justify-content: center; /* Centers the grid in the container */
+  gap: 20px; /* Adds space between cards */
+  padding: 20px;
+}
+
+/* Individual Card Styling */
+.card {
+  display: flex;
+  flex-direction: column; /* Stack contents vertically */
+  align-items: center;
+  justify-content: space-between;
+  width: 300px; /* Fixed width for all cards */
+  height: 400px; /* Fixed height for all cards */
+  background-color: #f0f0f0; /* Slightly different background */
+  border-radius: 8px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+/* Card Image Styling */
+.card img {
+  width: 100%; /* Full width of the card */
+  height: 150px; /* Fixed height */
+  object-fit: cover; /* Cover the area */
+  border-radius: 8px; /* Round corners */
+}
+
+/* Card Title Styling */
+.card h3 {
+  font-size: 20px; /* Font size for card title */
+  color: #333; /* Text color */
+  margin: 10px 0; /* Vertical margin */
+}
+
+/* Button inside Card */
+.card .btn-blue {
+  background-color: #007BFF; /* Button background color */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Button padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* No underline */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background change */
+}
+
+.card .btn-blue:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+.banner h1 {
+  font-size: 40px; /* Font size for main title */
+  font-weight: bold; /* Bold title */
+  color: #333; /* Color for title */
+  margin-bottom: 20px; /* Margin below title */
+}
+
+.banner h2 {
+  font-size: 28px; /* Font size for subtitle */
+  font-weight: 300; /* Light font weight */
+  opacity: 0.8; /* Slightly transparent */
+  margin-bottom: 40px; /* Margin below subtitle */
+  color: #555; /* Subtitle color */
+}
+.card {
+    display: flex;
+    flex-direction: column; /* Empile le contenu verticalement */
+    align-items: center;
+    justify-content: space-between;
+    width: 300px; /* Largeur fixe pour toutes les cartes */
+    height: 400px; /* Hauteur fixe pour toutes les cartes */
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    margin: 20px; /* Ajoute une marge de 20px autour de chaque carte */
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Zoom au survol */
+}
+
+
+ 
